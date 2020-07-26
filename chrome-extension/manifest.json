@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "YapıKredi Extension",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.yatirimdunyam.com.tr/portfoyum",
+        "https://www.yatirimdunyam.com.tr/takiplistem"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

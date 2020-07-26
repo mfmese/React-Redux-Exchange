@@ -1,0 +1,17 @@
+export default {
+  products: [],
+  categories: [],
+  stocks: [],
+  stockOperations: [],
+  stores: [],
+  orders: [],
+  orderTypes: [],
+  unitTypes: [],
+  customers: [],
+  user: {},
+  saveProduct: {},
+  saveCategory: {},
+  saveStock: {},
+  saveStore: {},
+  saveCustomer: {},
+};

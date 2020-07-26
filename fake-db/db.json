@@ -1,0 +1,268 @@
+{
+  "products": [
+    {
+      "productCode": "TL",
+      "productName": "TL",
+      "categoryId": 2,
+      "buyPrice": "1",
+      "isDefault": "on",
+      "sellPrice": "1",
+      "properties": "Türkiye para birimi",
+      "unitType": {
+        "id": 3,
+        "name": "adet",
+        "userId": 1
+      },
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "productCode": "$",
+      "productName": "Dolar",
+      "categoryId": 2,
+      "buyPrice": "6.80",
+      "sellPrice": "6.77",
+      "properties": "Amerika para birimi",
+      "unitType": {
+        "id": 3,
+        "name": "adet",
+        "userId": 1
+      },
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "productCode": "€",
+      "productName": "Euro",
+      "categoryId": 2,
+      "buyPrice": "7.43",
+      "sellPrice": "7.41",
+      "properties": "Avrupa Birliği para birimi",
+      "unitType": {
+        "id": 3,
+        "name": "adet",
+        "userId": 1
+      },
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "productCode": "ASELS",
+      "productName": "Aselsan",
+      "categoryId": 1,
+      "buyPrice": "29.20",
+      "sellPrice": "29.18",
+      "unitType": {
+        "id": 3,
+        "name": "adet",
+        "userId": 1
+      },
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "productCode": "KOZAA",
+      "productName": "KOZA ANADOLU METAL",
+      "categoryId": 1,
+      "buyPrice": "12.24",
+      "sellPrice": "12.21",
+      "properties": "KOZA ANADOLU METAL MADENCİLİK İŞLETMELERİ A.Ş",
+      "unitType": {
+        "id": 3,
+        "name": "adet",
+        "userId": 1
+      },
+      "userId": 1,
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "categoryCode": "XU100",
+      "categoryName": "Borsa",
+      "properties": "BIST Türkiye Borsası",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "categoryName": "Döviz",
+      "categoryCode": "DOVIZ",
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Fethi"
+    }
+  ],
+  "stocks": [],
+  "stockOperations": [
+    {
+      "id": 0,
+      "name": "Giriş"
+    },
+    {
+      "id": 1,
+      "name": "Çıkış"
+    }
+  ],
+  "stores": [
+    {
+      "name": "Borsa Hesabı",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Döviz Hesabı",
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "unitTypes": [
+    {
+      "id": 1,
+      "name": "kg",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "gr",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "adet",
+      "userId": 1
+    }
+  ],
+  "orderTypes": [
+    {
+      "id": 1,
+      "name": "Alış"
+    },
+    {
+      "id": 2,
+      "name": "Satış"
+    },
+    {
+      "id": 3,
+      "name": "Sipariş"
+    },
+    {
+      "id": 4,
+      "name": "Teklif"
+    }
+  ],
+  "orders": [
+    {
+      "entryDate": "2020-05-28",
+      "modifiedDate": "2020-05-28",
+      "unitPrice": "6.77",
+      "unitType": {
+        "id": 3,
+        "name": "adet",
+        "userId": 1
+      },
+      "amount": "10",
+      "totalPrice": 68,
+      "product": {
+        "productCode": "$",
+        "productName": "Dolar",
+        "categoryId": 2,
+        "buyPrice": "6.80",
+        "sellPrice": "6.77",
+        "properties": "Amerika para birimi",
+        "unitType": {
+          "id": 3,
+          "name": "adet",
+          "userId": 1
+        },
+        "userId": 1,
+        "id": 2
+      },
+      "orderType": {
+        "id": 2,
+        "name": "Satış"
+      },
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "entryDate": "2020-05-28",
+      "modifiedDate": "2020-05-28",
+      "orderType": {
+        "id": 1,
+        "name": "Alış"
+      },
+      "unitPrice": "1",
+      "unitType": {
+        "id": 3,
+        "name": "adet",
+        "userId": 1
+      },
+      "amount": "10",
+      "totalPrice": 10,
+      "product": {
+        "productCode": "TL",
+        "productName": "TL",
+        "categoryId": 2,
+        "buyPrice": "1",
+        "isDefault": "on",
+        "sellPrice": "1",
+        "properties": "Türkiye para birimi",
+        "unitType": {
+          "id": 3,
+          "name": "adet",
+          "userId": 1
+        },
+        "userId": 1,
+        "id": 1
+      },
+      "store": {
+        "name": "Borsa Hesabı",
+        "userId": 1,
+        "id": 1
+      },
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "customers": [
+    {
+      "name": "Mehmet Fethi",
+      "surname": "Meşe",
+      "age": "35",
+      "phones": [
+        "05324990334",
+        "05547426009"
+      ],
+      "emails": [
+        "m.fethimese@gmail.com",
+        " mehmet.fethi.mese@hotmail.com"
+      ],
+      "taxNo": "111111111",
+      "tcNo": "1111111111",
+      "address": "Çekmeköy / İstanbul",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Jale",
+      "surname": "Meşe",
+      "age": "35",
+      "phones": [
+        "05075100074"
+      ],
+      "emails": [
+        "jalectn@gmail.com"
+      ],
+      "taxNo": "2222222222222",
+      "tcNo": "2222222222",
+      "address": "Çekmeköy / İstanbul",
+      "userId": 1,
+      "id": 2
+    }
+  ]
+}

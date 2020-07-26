@@ -1,0 +1,25 @@
+/*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 375px and also iPads specifically.
+	*/
+@media only screen and (max-width: 640px) {
+  .heading-medium.list {
+    margin-bottom: 5em;
+  }
+
+  .form-group-filter-table {
+    margin-left: 0em !important;
+    margin-top: -5.5em !important;
+  }
+
+  .dataTables_filter {
+    position: absolute;
+    margin-top: -2.5em !important;
+  }
+
+  .btn-add-to-table {
+    position: absolute;
+    top: 10007px;
+    left: 10085px;
+    z-index: 1;
+  }
+}
